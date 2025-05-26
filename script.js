@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   ];
 
-  const container = document.getElementById('tabela-container');
+    const container = document.getElementById('tabela-container');
 
   tableData.forEach(brandData => {
     const tbl = document.createElement('table');
@@ -146,12 +146,11 @@ document.addEventListener('DOMContentLoaded', () => {
     container.appendChild(tbl);
   });
 
-  // Exportar via print
-  document.getElementById('btn-export').addEventListener('click', () => {
-    window.print();
-  });
+ // Por este:
+document.getElementById('btn-export').addEventListener('click', () => {
+  window.print();
+});
 
-  // Alternância de tema
   document.getElementById('btn-theme').addEventListener('click', () => {
     document.body.classList.toggle('dark');
     const btn = document.getElementById('btn-theme');
