@@ -93,14 +93,9 @@ body.dark footer p {
   table-layout: fixed;
 }
 
-.table-brand col:nth-child(1) {
-  width: 60%;
-}
-
+.table-brand col:nth-child(1) { width: 60%; }
 .table-brand col:nth-child(2),
-.table-brand col:nth-child(3) {
-  width: 20%;
-}
+.table-brand col:nth-child(3) { width: 20%; }
 
 .table-brand .brand-banner {
   display: flex;
@@ -165,36 +160,18 @@ body.dark .table-brand tr:nth-child(odd) {
 @media print {
   body {
     padding: 0;
-    background: var(--bg-light) !important;
-    color: var(--text-light) !important;
   }
-
   .page-header,
-  .header-buttons,
   footer {
-    display: none !important;
+    display: none;
   }
-
   .table-brand {
     page-break-inside: avoid;
   }
+}
 
-  .table-brand th,
-  .table-brand td {
-    color: #000 !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-
-  .brand-banner {
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-    background-color: inherit !important;
-  }
-
-  .tag {
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-    color: #000 !important;
-  }
+/* Forçar impressão de cores de fundo e imagens */
+body, .page-banner, .table-brand th, .table-brand tr {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
 }
