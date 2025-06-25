@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Mais Ativa 60caps', unit: 10.97, tag: '' },
         { desc: 'Óleo de Abacate 1000mg 60caps', unit: 17.39, tag: 'ultimo-lote' },
         { desc: 'Óleo de Alho 500mg 60caps', unit: 13.04, tag: '' },
-        { desc: 'Óleo de Semente de Abóbora 1000mg 60caps', unit: 26.10, tag: 'ultimo-lote' },
+        { desc: 'Óleo de Semente de Abóbora 1000mg 60caps', unit: 22.35, tag: 'ultimo-lote' },
         { desc: 'Ora Pro Nóbis 60caps', unit: 12.07, tag: '' },
         { desc: 'Seca Barriga com Laranja MORO 60caps', unit: 12.40, tag: '' },
         { desc: 'Tibulus Terrestris 40% 60caps', unit: 12.07, tag: '' },
