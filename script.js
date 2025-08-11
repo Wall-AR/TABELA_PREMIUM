@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Mag 6 60caps (seis magnésios)', unit: 12.51, tag: '' },
         { desc: 'Óleo de Primula 60caps Softgel', unit: 18.63, tag: '' },
         { desc: 'Óleo de Semente de Abóbora 1000mg 60cap', unit: 22.35, tag: 'novo' },
-        { desc: 'Ômega 3 IFOS 60caps 1gr Softgel', unit: 32.31, tag: '' },
+        { desc: 'Ômega 3 60caps 1gr Softgel', unit: 21.63, tag: 'novo' },
         { desc: 'Ômega 3, 6, 9 60caps 1gr Softgel', unit: 19.87, tag: '' },
         { desc: 'PEA-600 60caps', unit: 21.03, tag: 'novo' },
         { desc: 'PEA + Colágeno Tipo 2 60caps', unit: 22.57, tag: 'novo' },
@@ -164,4 +164,5 @@ document.getElementById('btn-export').addEventListener('click', () => {
     btn.textContent = document.body.classList.contains('dark') ? 'Tema Claro' : 'Tema Escuro';
   });
 });
+
 
