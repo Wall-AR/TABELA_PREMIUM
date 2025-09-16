@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Colágeno Tipo 2 60cap', unit: 13.20, tag: 'novo' },
         { desc: 'Caffeine 60caps - Microencapsulada 200mg Softgel', unit: 17.90, tag: '' },
         { desc: 'CO-MAG 60caps', unit: 22.51, tag: 'novo' },
-        { desc: 'Derma B -Biotina Gummy 30gomas-Morango', unit: 30.99, tag: 'ultimo-lote' },
         { desc: 'D3 + K2 30caps - 2000UI / 159mcg', unit: 10.31, tag: '' },
         { desc: 'Ferrofor + C 60caps', unit: 11.32, tag: '' },
         { desc: 'Feno Grego 60caps', unit: 11.96, tag: '' },
@@ -74,8 +73,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'L-Treonato Magnésio 60caps', unit: 13.83, tag: '' },
         { desc: 'Maca Peruana Negra 60caps', unit: 14.60, tag: '' },
         { desc: 'Mais Ativa 60caps', unit: 10.97, tag: '' },
-        { desc: 'Óleo de Abacate 1000mg 60caps', unit: 17.39, tag: 'ultimo-lote' },
-        { desc: 'Óleo de Alho 500mg 60caps', unit: 13.04, tag: '' },
         { desc: 'Óleo de Copaíba 1000mg 60cap', unit: 16.47, tag: 'novo' },
         { desc: 'Óleo de Semente de Abóbora 1000mg 60caps', unit: 22.35, tag: 'ultimo-lote' },
         { desc: 'Óleo de Sucupira 1000mg 60cap', unit: 15.37, tag: 'novo' },
@@ -164,6 +161,7 @@ document.getElementById('btn-export').addEventListener('click', () => {
     btn.textContent = document.body.classList.contains('dark') ? 'Tema Claro' : 'Tema Escuro';
   });
 });
+
 
 
 
