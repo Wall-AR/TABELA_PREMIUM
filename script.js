@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Magnésio Dimalato 60caps', unit: 14.04, tag: '' },
         { desc: 'Magnésio Inositol 210g - Maracujá', unit: 38.12, tag: 'novo' },
         { desc: 'Magnésio L-Treonato 60caps', unit: 13.83, tag: '' },
+        { desc: 'Magnésio L-Treonato 60caps - ÂMBAR', unit: 12.25, tag: 'novo' },
         { desc: 'Magnésio L-Treonato Blister 30caps', unit: 17.13, tag: '' },
         { desc: 'Magnésio Quelato 60caps', unit: 12.84, tag: '' },
         { desc: 'Magnésio Soft 60caps', unit: 8.22, tag: 'novo' },
@@ -167,6 +168,7 @@ document.getElementById('btn-export').addEventListener('click', () => {
     btn.textContent = document.body.classList.contains('dark') ? 'Tema Claro' : 'Tema Escuro';
   });
 });
+
 
 
 
