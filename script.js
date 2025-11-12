@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Curcumina com colágeno tipo 2 30ml-Gotas', unit: 14.27, tag: 'gotas' },
         { desc: 'Cúrcuma Longa com Curcumina 60caps', unit: 14.27, tag: '' },
         { desc: 'Colágeno Tipo 2 60cap', unit: 13.20, tag: 'novo' },
+        { desc: 'CurcuMAX 95% - Cúrcuma com Pimenta Preta 60 caps - ÂMBAR', unit: 11.35, tag: 'novo' },
         { desc: 'Caffeine 60caps - Microencapsulada 200mg Softgel', unit: 17.90, tag: '' },
         { desc: 'CO-MAG 60caps', unit: 22.51, tag: 'novo' },
         { desc: 'D3 + K2 30caps - 2000UI / 159mcg', unit: 10.31, tag: '' },
@@ -166,6 +167,7 @@ document.getElementById('btn-export').addEventListener('click', () => {
     btn.textContent = document.body.classList.contains('dark') ? 'Tema Claro' : 'Tema Escuro';
   });
 });
+
 
 
 
