@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'CO-Creatin 300g (Creatina com coenzima + vitaminas) Sabor Laranja', unit: 44.72, tag: '' },
         { desc: 'Curcumina com colágeno tipo 2 30ml-Gotas', unit: 16.24, tag: 'gotas' },
         { desc: 'Cúrcuma Longa com Curcumina 60caps', unit: 17.93, tag: '' },
-        { desc: 'Colágeno Tipo 2 60cap', unit: 15.38, tag: 'novo' },
+        { desc: 'Colágeno Tipo 2 30cap', unit: 15.38, tag: 'novo' },
         { desc: 'CurcuMAX 95% - Cúrcuma com Pimenta Preta 60 caps - ÂMBAR', unit: 11.35, tag: 'novo' },
         { desc: 'Caffeine 60caps - Microencapsulada 200mg Softgel', unit: 25.06, tag: '' },
         { desc: 'CO-MAG 60caps', unit: 26.68, tag: 'novo' },
@@ -165,6 +165,7 @@ document.getElementById('btn-export').addEventListener('click', () => {
     btn.textContent = document.body.classList.contains('dark') ? 'Tema Claro' : 'Tema Escuro';
   });
 });
+
 
 
 
